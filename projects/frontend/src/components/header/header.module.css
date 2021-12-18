@@ -1,0 +1,44 @@
+.header {
+  background-color: #0e3a70;
+  height: 4rem;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+.toggle_button {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #cdac81;
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  background-color: white;
+  margin: 0.15rem 0;
+  width: 75%;
+  height: 0.1rem;
+}
+
+@media screen and (max-width: 720px) {
+  .toggle_button {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+  }
+}
