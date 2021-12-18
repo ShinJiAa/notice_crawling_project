@@ -1,0 +1,38 @@
+.pageContainer {
+  flex: 1 1 20%;
+  max-height: 4rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.1rem;
+  user-select: none;
+}
+
+.page_selector {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid #c2cce7b4;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.page_selector_item {
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+.page_selector_item:first-child,
+.page_selector_item:last-child {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_selector_item:hover {
+  background-color: #c3d0f5;
+}
